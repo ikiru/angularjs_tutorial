@@ -8,13 +8,13 @@
     <script src="js/controller/tutorialCtrl.js"></script>
 </head>
 <body ng-controller="TutorialCtrl">
-    <div>
-        <ul ng-controller="ulCtrl">
-            <li>
+<hr />
+<h1>{{ tutorialObject.title}}</h1>
+<h2>{{ tutorialObject.sub }}</h2>
 
-            </li>
-        </ul>
-    </div>
+<p>Number: {{2+2}}</p>
+<p>String: {{"Thomas"+" "+ "Brown"}}</p>
+<p><b>Binding: {{tutorialObject.bindOutput}}</b></p>
     
 </body>
 </html>
