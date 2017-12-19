@@ -7,5 +7,8 @@ angular.module("tutorialCtrlModule", [])
         $scope.tutorialObject.suTitle = "Sub Title";
 
         $scope.tutorialObject.bindOutput = 2;
+        $scope.timesTwo = function(){
+              $scope.tutorialObject.bindOutput *=2;  
+        }
     
 }]);
